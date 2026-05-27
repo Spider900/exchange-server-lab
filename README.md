@@ -17,7 +17,7 @@ This lab demonstrates enterprise-grade internal email infrastructure, including 
 | Network Adapter | Internal Network |
 | DNS | 172.16.0.1 |
 
-Features Implemented
+# Features Implemented
 
 ✅ Microsoft Exchange Server deployed on dedicated VM
 

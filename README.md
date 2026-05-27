@@ -18,6 +18,7 @@ This lab demonstrates enterprise-grade internal email infrastructure, including 
 | DNS | 172.16.0.1 |
 
 Features Implemented
+
 ✅ Microsoft Exchange Server deployed on dedicated VM
 
 ✅ Exchange integrated with existing Active Directory domain

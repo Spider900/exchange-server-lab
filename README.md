@@ -19,9 +19,15 @@ This lab demonstrates enterprise-grade internal email infrastructure, including 
 
 Features Implemented
 ✅ Microsoft Exchange Server deployed on dedicated VM
+
 ✅ Exchange integrated with existing Active Directory domain
+
 ✅ Internal mailboxes provisioned for 1,000+ AD users
+
 ✅ Outlook Web App (OWA) accessible from client machine
+
 ✅ Send/receive internal email between domain accounts
+
 ✅ Exchange Admin Center (EAC) configuration
+
 ✅ Configured AD and Exchange Certificate Services for secure web connections to mail server

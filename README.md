@@ -1,10 +1,9 @@
 # 📬 Home Lab: Microsoft Exchange Server + Active Directory Integration
 
 # Overview
-I extended my existing Active Directory home lab by deploying Microsoft Exchange Server SE on oracle vm, integrating it with my domain controller at mydomain.com. 
-This lab demonstrates enterprise-grade internal email infrastructure, including mailbox provisioning for 1,000+ existing AD users. For further documentation on my AD lab, see it [here](https://github.com/Spider900/ad-windows-server-lab).
+I extended my self-hosted home lab Active Directory environment with Microsoft Exchange Server. This provided email infrastructure for 1,000+ users — secured with an internally issued SSL certificate from my Domain Controller. For further documentation on my AD lab, see it [here](https://github.com/Spider900/ad-windows-server-lab).
 
-![Badge](https://img.shields.io/badge/Windows_Server_2019-blue) ![Badge](https://img.shields.io/badge/Exchange_Server_SE-green) ![Badge](https://img.shields.io/badge/Active_Directory-yellow) ![Badge](https://img.shields.io/badge/VirtualBox-orange)
+![Badge](https://img.shields.io/badge/Windows_Server_2019-blue) ![Badge](https://img.shields.io/badge/Exchange_Server_SE-green) ![Badge](https://img.shields.io/badge/Active_Directory-yellow) ![Badge](https://img.shields.io/badge/VirtualBox-orange) ![Badge](https://img.shields.io/badge/Internal_PKI_Certificate-grey) 
 
 # Architecture
 | Component | Details |
@@ -25,10 +24,12 @@ This lab demonstrates enterprise-grade internal email infrastructure, including 
 
 ✅ Internal mailboxes provisioned for 1,000+ AD users
 
-✅ Outlook Web App (OWA) accessible from client machine
+✅ Internal Certificate Authority (CA) configured on Domain Controller
+
+✅ SSL certificate issued by internal CA and bound to OWA site
+
+✅ OWA accessible over HTTPS from domain-joined client (no certificate warnings)
 
 ✅ Send/receive internal email between domain accounts
 
-✅ Exchange Admin Center (EAC) configuration
-
-✅ Configured AD and Exchange Certificate Services for secure web connections to mail server
+✅ Mail-enabled users and distribution groups

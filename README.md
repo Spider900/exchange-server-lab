@@ -33,3 +33,50 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 ✅ Send/receive internal email between domain accounts
 
 ✅ Mail-enabled users and distribution groups
+
+✅ Group Policy Objects (GPOs) 
+
+# Settings and Configuration
+
+### Exchange Server Active Directory Integration
+
+<img width="1918" height="1021" alt="AD-1" src="https://github.com/user-attachments/assets/daaccb6d-aba3-4157-a1dd-1988b6c0e1fa" />
+
+<img width="1918" height="1018" alt="AD-2" src="https://github.com/user-attachments/assets/99965173-8381-40d6-b925-088e9e61dd31" />
+
+1. Successfully installed Exchange SE and connected the machine to "mydomain.com"
+
+### DNS 
+
+<img width="1918" height="992" alt="DNS-1" src="https://github.com/user-attachments/assets/e96ee873-427a-4d0b-9b84-6abecfd22fd9" />
+
+1. DNS settings for Exchange Server
+
+### GPO Settings
+
+<img width="1918" height="1018" alt="GPO-0" src="https://github.com/user-attachments/assets/a8256e17-8f1f-47f8-a651-06904a07e2af" />
+
+1. Added Exchange Server to different OU in order to implement GPO settings
+
+<img width="1918" height="1017" alt="GPO-1" src="https://github.com/user-attachments/assets/fa455743-99e8-4a6f-b34c-17e073e86dd2" />
+
+2. GPO configured for only admin logon
+
+<img width="1918" height="1020" alt="GPO-2" src="https://github.com/user-attachments/assets/3c4101c1-d212-432e-b620-5bed884c18ef" />
+
+3. User Login attempt
+
+<img width="1918" height="1020" alt="GPO-3" src="https://github.com/user-attachments/assets/fd788372-4ae4-4276-842a-c7db8782cae1" />
+
+4. Login failure due to proper GPO settings
+
+<img width="1918" height="988" alt="GPO-4" src="https://github.com/user-attachments/assets/c8d98197-a8ee-4af7-b135-52e1e8ee0504" />
+
+5. Admin login attempt
+
+<img width="1918" height="1021" alt="GPO-5" src="https://github.com/user-attachments/assets/b35780cd-31e6-404f-a7a8-5585a0a8512b" />
+
+6. Login success
+
+
+

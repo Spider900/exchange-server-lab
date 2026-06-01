@@ -78,5 +78,11 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 
 6. Login success
 
+### Mailbox Provisioning
 
+<img width="1918" height="1023" alt="MB-1" src="https://github.com/user-attachments/assets/a1da40e8-a19d-4c88-b47b-3045960b7f1e" />
+
+<img width="1918" height="1023" alt="MB-2" src="https://github.com/user-attachments/assets/6ec16436-c049-43c5-a2ce-d5e3f460fbec" />
+
+1. Used a command on Exchange Management to generate mailboxes for 1,000+ users
 

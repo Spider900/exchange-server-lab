@@ -97,3 +97,13 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 <img width="1918" height="991" alt="ICA-2" src="https://github.com/user-attachments/assets/f1f227e6-5aff-473b-8bf8-c136020f64b2" />
 
 1. Generated Self-signed certificate for secure browser logins
+
+### Sending Internal Email
+
+<img width="1918" height="1022" alt="MT-1" src="https://github.com/user-attachments/assets/8f084b60-4f08-422b-8d41-e652f49c9ab7" />
+
+1. From the Windows 11 Client Machine, aabrev will send an email to aacre to showcase email functionality
+
+<img width="1918" height="1020" alt="MT-2" src="https://github.com/user-attachments/assets/1900df78-e3ef-49d7-8ab7-88ff95758b56" />
+
+2. User aacre successfully received mail from user aabrev

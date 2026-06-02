@@ -88,6 +88,12 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 
 ### Internal Certificate Authority Configuration
 
-<img width="1918" height="1030" alt="ICA-1" src="https://github.com/user-attachments/assets/e448271d-1631-452d-ad49-289552d5bc39" />
+<img width="1918" height="1021" alt="ICA-1" src="https://github.com/user-attachments/assets/0b42714d-a4f5-4544-a4cb-d9b8b876cb8b" />
 
-1. Added a CA to my DC and issued a certificate for my exchange server website
+1. Successfully created a CA for my DC
+
+### SSL Cert for OWA
+
+<img width="1918" height="991" alt="ICA-2" src="https://github.com/user-attachments/assets/f1f227e6-5aff-473b-8bf8-c136020f64b2" />
+
+1. Generated Self-signed certificate for secure browser logins

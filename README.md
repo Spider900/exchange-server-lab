@@ -107,3 +107,13 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 <img width="1918" height="1020" alt="MT-2" src="https://github.com/user-attachments/assets/1900df78-e3ef-49d7-8ab7-88ff95758b56" />
 
 2. User aacre successfully received mail from user aabrev
+
+### What I learned
+1. Active Directory Certificate Services (AD CS) — How to configure a Domain Controller as an internal      Certificate Authority and issue SSL certificates to internal services.
+
+2. Exchange certificate binding — How to generate a certificate request in EAC, fulfill it from an internal CA, and bind it to the IIS/OWA service
+
+3. Mailbox provisioning at scale — Bulk-enabling mailboxes for 1,000+ pre-existing AD users using PowerShell rather than the GUI.
+
+4. Internal PKI concepts — Certificate chains, CA trust stores, and how enterprise environments avoid purchasing public certificates for internal services.
+

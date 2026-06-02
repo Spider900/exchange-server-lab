@@ -1,11 +1,11 @@
 # 📬 Home Lab: Microsoft Exchange Server + Active Directory Integration
 
-# Overview
+## Overview
 I extended my self-hosted home lab Active Directory environment with Microsoft Exchange Server. This provided email infrastructure for 1,000+ users — secured with an internally issued SSL certificate from my Domain Controller. For further documentation on my AD lab, see it [here](https://github.com/Spider900/ad-windows-server-lab).
 
 ![Badge](https://img.shields.io/badge/Windows_Server_2019-blue) ![Badge](https://img.shields.io/badge/Exchange_Server_SE-green) ![Badge](https://img.shields.io/badge/Active_Directory-yellow) ![Badge](https://img.shields.io/badge/VirtualBox-orange) ![Badge](https://img.shields.io/badge/Internal_PKI_Certificate-grey) 
 
-# Architecture
+## Architecture
 | Component | Details |
 | --------- | ------- |
 | Exchange Server | Windows Server 2019 + Exchange Server SE |
@@ -16,7 +16,7 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 | Network Adapter | Internal Network |
 | DNS | 172.16.0.1 |
 
-# Features Implemented
+## Features Implemented
 
 ✅ Microsoft Exchange Server deployed on dedicated VM
 
@@ -36,7 +36,7 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 
 ✅ Group Policy Objects (GPOs) 
 
-# Settings and Configuration
+## Settings and Configuration
 
 ### Exchange Server Active Directory Integration
 
@@ -84,7 +84,7 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 
 <img width="1918" height="1023" alt="MB-2" src="https://github.com/user-attachments/assets/6ec16436-c049-43c5-a2ce-d5e3f460fbec" />
 
-1. Used a command on Exchange Management to generate mailboxes for 1,000+ users
+1. Used command on Exchange Management to generate mailboxes for 1,000+ users
 
 ### Internal Certificate Authority Configuration
 
@@ -96,7 +96,7 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 
 <img width="1918" height="991" alt="ICA-2" src="https://github.com/user-attachments/assets/f1f227e6-5aff-473b-8bf8-c136020f64b2" />
 
-1. Generated Self-signed certificate for secure browser logins
+1. Generated internally issued certificate for secure browser logins
 
 ### Sending Internal Email
 
@@ -108,7 +108,7 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 
 2. User aacre successfully received mail from user aabrev
 
-### What I learned
+## What I learned
 1. Active Directory Certificate Services (AD CS) — How to configure a Domain Controller as an internal      Certificate Authority and issue SSL certificates to internal services.
 
 2. Exchange certificate binding — How to generate a certificate request in EAC, fulfill it from an internal CA, and bind it to the IIS/OWA service

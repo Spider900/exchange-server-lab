@@ -86,3 +86,8 @@ I extended my self-hosted home lab Active Directory environment with Microsoft E
 
 1. Used a command on Exchange Management to generate mailboxes for 1,000+ users
 
+### Internal Certificate Authority Configuration
+
+<img width="1918" height="1030" alt="ICA-1" src="https://github.com/user-attachments/assets/e448271d-1631-452d-ad49-289552d5bc39" />
+
+1. Added a CA to my DC and issued a certificate for my exchange server website
